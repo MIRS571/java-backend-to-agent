@@ -2,7 +2,7 @@
 
 面向 Java 后端开发者的企业级 AI Agent 工程教程。课程使用简洁的中文解释和可运行代码，重点覆盖 LangChain、RAG、LangGraph，以及它们与 Spring Boot 企业后端的协作边界。
 
-> 当前状态：第 1 章“Agent、LLM API、消息、上下文与模型局限”已经完成，下一步是第 2 章“Java 开发者所需的 Python、uv、异步与 FastAPI”。
+> 当前状态：第 1、2 章内容已经完成，下一步是第 3 章“LangChain 模型、Message、Prompt、LCEL、Parser 与调用方式”。
 
 ## 为什么有这个项目
 
@@ -28,7 +28,7 @@
 
 完整章节和状态见 [ROADMAP.md](ROADMAP.md)。
 
-当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](https://mirs571.github.io/Java-backend-to-agent/chapter01/agent-and-llm-api/)。
+当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)。
 
 ## 快速开始
 
@@ -73,8 +73,6 @@ infra/      Qdrant、Redis、PostgreSQL 等基础设施说明
 - Java 类比只用于帮助理解，并说明类比失效的位置。
 - 每章包含思考题，但不在正文直接给出答案。
 - 技术 API 优先引用官方文档，并记录验证日期和依赖版本。
-
-本项目受到 [Datawhale Hello-Agents](https://github.com/datawhalechina/hello-agents) 的开源教学形式启发，但章节、解释、示例和代码均独立编写。
 
 ## 开源许可
 

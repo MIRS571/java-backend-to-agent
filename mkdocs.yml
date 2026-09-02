@@ -20,6 +20,7 @@ nav:
   - 课程路线: course-overview.md
   - 学习方法: guide/learning-method.md
   - 第 1 章 Agent 与 LLM API: chapter01/agent-and-llm-api.md
+  - 第 2 章 Python、uv、async 与 FastAPI: chapter02/python-uv-async-fastapi.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md

@@ -9,7 +9,7 @@
 | 章 | 主题 | 解决的问题 |
 | ---: | --- | --- |
 | 1 | [Agent 与 LLM API](chapter01/agent-and-llm-api.md) | 模型到底接收什么，又能可靠地完成什么 |
-| 2 | 最低必要 Python 与 FastAPI | 如何读写后续 Agent 工程代码 |
+| 2 | [最低必要 Python 与 FastAPI](chapter02/python-uv-async-fastapi.md) | 如何读写后续 Agent 工程代码 |
 | 3 | LangChain 核心 | 如何统一组织模型、消息、Prompt 与输出 |
 | 4 | Structured Output 与 Tool Calling | 如何让模型输出可验证数据并请求外部能力 |
 | 5 | RAG 基础 | 如何让回答基于外部知识而非模型记忆 |

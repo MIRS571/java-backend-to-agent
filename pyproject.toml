@@ -5,12 +5,14 @@ description = "Enterprise AI Agent engineering course for Java backend developer
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "fastapi[standard]>=0.115,<1",
     "python-dotenv>=1.1,<2",
 ]
 
 [dependency-groups]
 dev = [
     "mkdocs-material>=9,<10",
+    "httpx>=0.28,<1",
     "pytest>=8,<10",
     "pytest-asyncio>=1,<2",
     "ruff>=0.12,<1",

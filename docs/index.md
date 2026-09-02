@@ -33,4 +33,4 @@ flowchart LR
 3. 每章结束后先独立回答思考题，再检查自己的理解。
 4. 遇到报错时使用[排查顺序](appendix/troubleshooting.md)，不要立即复制完整答案。
 
-当前已完成[第 1 章：Agent、LLM API、消息、上下文与模型局限](chapter01/agent-and-llm-api.md)，下一步为第 2 章。
+当前已完成[第 1 章：Agent、LLM API、消息、上下文与模型局限](chapter01/agent-and-llm-api.md)和[第 2 章：Python、uv、异步与 FastAPI](chapter02/python-uv-async-fastapi.md)，下一步为第 3 章 LangChain 核心。
