@@ -1,0 +1,15 @@
+# Examples
+
+每个已完成章节可以拥有一个独立目录，例如：
+
+```text
+examples/chapter01_agent_basics/
+examples/chapter03_langchain/
+examples/chapter06_qdrant/
+```
+
+目录只在对应章节真正开始时创建。每个示例必须提供明确入口、固定运行命令和离线测试；需要模型或外部服务的部分必须单独标记为 integration。
+
+## 已完成示例
+
+- [`chapter01_agent_basics`](chapter01_agent_basics/README.md)：使用离线 Fake Model 观察显式上下文边界。

@@ -1,0 +1,8 @@
+# 双许可证说明
+
+本仓库采用双许可证：
+
+- Python、Java、Shell、YAML、TOML 等源代码与配置文件使用 MIT License，详见 `LICENSE-CODE`。
+- `docs/` 下的原创教程文字、原创图表和原创教学材料使用 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International，详见 `LICENSE-DOCS`。
+
+第三方材料继续适用其原许可证和署名要求，不因进入本仓库而改变许可证。

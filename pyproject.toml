@@ -1,0 +1,37 @@
+[project]
+name = "java-backend-to-agent"
+version = "0.1.0"
+description = "Enterprise AI Agent engineering course for Java backend developers"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "python-dotenv>=1.1,<2",
+]
+
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9,<10",
+    "pytest>=8,<10",
+    "pytest-asyncio>=1,<2",
+    "ruff>=0.12,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+markers = [
+    "integration: requires local external services or model credentials",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+extend-exclude = ["site"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+allowed-confusables = ["，", "。", "：", "；", "？"]
