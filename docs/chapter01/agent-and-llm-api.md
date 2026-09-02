@@ -110,7 +110,7 @@ Agent 则可能重复执行：
 
 本章使用离线 `FakeChatModel`。它不是模型，只用固定规则把上下文边界变成可重复测试的行为：同样问“那还能直接取消吗？”，不带历史时缺少订单信息，带历史时才能关联订单 A1001 的发货状态。
 
-完整代码位于 [`examples/chapter01_agent_basics`](https://github.com/MIRS571/Java-backend-to-agent/tree/main/examples/chapter01_agent_basics)。
+完整代码位于 [`examples/chapter01_agent_basics`](https://github.com/MIRS571/java-backend-to-agent/tree/main/examples/chapter01_agent_basics)。
 
 在仓库根目录运行：
 

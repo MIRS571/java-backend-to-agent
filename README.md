@@ -35,8 +35,8 @@
 要求：Python 3.12 与 [uv](https://docs.astral.sh/uv/)。
 
 ```powershell
-git clone https://github.com/MIRS571/Java-backend-to-agent.git
-cd Java-backend-to-agent
+git clone https://github.com/MIRS571/java-backend-to-agent.git
+cd java-backend-to-agent
 uv sync --locked
 uv run pytest
 uv run mkdocs serve

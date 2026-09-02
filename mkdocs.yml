@@ -1,8 +1,8 @@
 site_name: Java Backend to Agent
 site_description: 面向 Java 后端开发者的企业级 AI Agent 工程教程
-site_url: https://mirs571.github.io/Java-backend-to-agent/
-repo_url: https://github.com/MIRS571/Java-backend-to-agent
-repo_name: MIRS571/Java-backend-to-agent
+site_url: https://mirs571.github.io/java-backend-to-agent/
+repo_url: https://github.com/MIRS571/java-backend-to-agent
+repo_name: MIRS571/java-backend-to-agent
 edit_uri: edit/main/docs/
 
 theme:

@@ -121,7 +121,7 @@ sequenceDiagram
 
 ## 5. 最小可运行示例
 
-代码位于 [`examples/chapter02_python_fastapi`](https://github.com/MIRS571/Java-backend-to-agent/tree/main/examples/chapter02_python_fastapi)，包含两个入口。
+代码位于 [`examples/chapter02_python_fastapi`](https://github.com/MIRS571/java-backend-to-agent/tree/main/examples/chapter02_python_fastapi)，包含两个入口。
 
 先运行异步最小示例：
 
