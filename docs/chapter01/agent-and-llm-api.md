@@ -38,6 +38,21 @@ Agent = 模型 + 指令 + 上下文 + 工具 + 状态 + 控制循环 + 安全边
 - Java / Python 应用负责验证参数、查询真实数据、检查权限并执行操作；
 - 数据库和业务服务负责保存确定性事实。
 
+下面的边界图比“模型能否访问数据库”这个问题更准确：模型只输出候选文本或工具请求；应用决定是否执行工具，业务服务才拥有事实与写入权限。
+
+```mermaid
+flowchart LR
+    User[用户消息] --> Gateway[Java 网关\n认证与授权]
+    Gateway --> Agent[Python Agent 服务\n上下文与模型编排]
+    Agent --> Model[LLM\n候选文本 / 工具请求]
+    Model --> Agent
+    Agent --> Tool[受控工具]
+    Tool --> Domain[Java 领域服务]
+    Domain --> Database[(业务数据库)]
+    Database --> Domain --> Tool --> Agent
+    Agent --> Gateway --> User
+```
+
 ### 3.2 上下文不是记忆
 
 **Context（上下文）**是本次生成过程中模型能够看到的信息，可能包括：

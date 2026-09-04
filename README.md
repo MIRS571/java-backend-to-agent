@@ -2,7 +2,7 @@
 
 面向 Java 后端开发者的企业级 AI Agent 工程教程。课程使用简洁的中文解释和可运行代码，重点覆盖 LangChain、RAG、LangGraph，以及它们与 Spring Boot 企业后端的协作边界。
 
-> 当前状态：第 1、2 章内容已经完成，下一步是第 3 章“LangChain 模型、Message、Prompt、LCEL、Parser 与调用方式”。
+> 当前状态：第 1～3 章内容已经完成，下一步是第 4 章“Structured Output、Pydantic、Tool Calling 与工具循环”。
 
 ## 为什么有这个项目
 
@@ -28,7 +28,7 @@
 
 完整章节和状态见 [ROADMAP.md](ROADMAP.md)。
 
-当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)。
+当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)；[第 3 章：LangChain 基础](docs/chapter03/langchain-basics.md)。
 
 ## 快速开始
 
