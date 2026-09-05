@@ -12,7 +12,7 @@
 | 2 | [最低必要 Python 与 FastAPI](chapter02/python-uv-async-fastapi.md) | 如何读写后续 Agent 工程代码 |
 | 3 | [LangChain 核心](chapter03/langchain-basics.md) | 如何统一组织模型、消息、Prompt 与输出 |
 | 4 | [Structured Output 与 Tool Calling](chapter04/structured-output-and-tools.md) | 如何让模型输出可验证数据并请求外部能力 |
-| 5 | RAG 基础 | 如何让回答基于外部知识而非模型记忆 |
+| 5 | [RAG 基础](chapter05/rag-basics.md) | 如何让回答基于外部知识而非模型记忆 |
 | 6 | 企业级 RAG | 如何持久化、隔离、引用和评估检索结果 |
 | 7 | LangGraph 基础 | 如何显式表示状态、节点和分支流程 |
 | 8 | 持久化与人工审批 | 如何恢复会话并安全暂停高风险流程 |
