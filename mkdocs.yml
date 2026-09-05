@@ -22,6 +22,7 @@ nav:
   - 第 1 章 Agent 与 LLM API: chapter01/agent-and-llm-api.md
   - 第 2 章 Python、uv、async 与 FastAPI: chapter02/python-uv-async-fastapi.md
   - 第 3 章 LangChain 基础: chapter03/langchain-basics.md
+  - 第 4 章 Structured Output 与 Tool Calling: chapter04/structured-output-and-tools.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md

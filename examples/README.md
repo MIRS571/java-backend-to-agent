@@ -15,3 +15,4 @@ examples/chapter06_qdrant/
 - [`chapter01_agent_basics`](chapter01_agent_basics/README.md)：使用离线 Fake Model 观察显式上下文边界。
 - [`chapter02_python_fastapi`](chapter02_python_fastapi/README.md)：使用离线协程和 FastAPI API 边界理解 `uv`、`async` 与请求校验。
 - [`chapter03_langchain_basics`](chapter03_langchain_basics/README.md)：使用离线 Chat Model 观察 Message、Prompt、LCEL、Parser 和调用方式。
+- [`chapter04_structured_tools`](chapter04_structured_tools/README.md)：使用离线数据验证 Structured Output Schema，并观察完整 Tool Calling 协议循环。

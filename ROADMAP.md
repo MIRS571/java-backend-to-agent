@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | uv 项目与锁文件 | 完成 | `pyproject.toml` 与 `uv.lock` 已建立，项目依赖版本已固定 |
 | MkDocs Material | 完成 | `mkdocs build --strict` 已成功，本地站点与 GitHub Pages 工作流已配置 |
-| 离线质量门槛 | 完成 | Ruff、18 个 pytest 测试和 MkDocs 严格构建通过 |
+| 离线质量门槛 | 完成 | Ruff、26 个 pytest 测试和 MkDocs 严格构建通过 |
 | 全局课程 Skill | 完成 | `java-agent-course-lead` 已安装并通过 `quick_validate.py` |
 
 ## 12 章主线
@@ -18,7 +18,7 @@
 | 1 | Agent、LLM API、消息、上下文与模型局限 | 内容完成（2026-09-02） |
 | 2 | Java 开发者所需的 Python、uv、异步与 FastAPI | 内容完成（2026-09-02） |
 | 3 | LangChain 模型、Message、Prompt、LCEL、Parser 与调用方式 | 内容完成（2026-09-04） |
-| 4 | Structured Output、Pydantic、Tool Calling 与工具循环 | 待开始 |
+| 4 | Structured Output、Pydantic、Tool Calling 与工具循环 | 内容完成（2026-09-05） |
 | 5 | RAG：Document、切分、Embedding、向量检索与 Retriever | 待开始 |
 | 6 | Qdrant、稳定 ID、Metadata Filter、多租户、引用与评估 | 待开始 |
 | 7 | LangGraph：State、Node、Edge、路由、MessagesState 与 ToolNode | 待开始 |
@@ -30,12 +30,12 @@
 
 ## 当前入口
 
-- 当前阶段：第 1～3 章内容完成，不代表学习者已经掌握。
-- 已交付：第 1 章正文、显式上下文离线示例和 3 个章节测试；第 2 章正文、协程最小示例、FastAPI 请求/响应边界示例和 4 个章节测试；第 3 章正文、LCEL 离线链路、真实模型客户端创建边界和 6 个章节测试。
-- 验证环境：Python 3.12，`LangChain 1.4.0`、`langchain-core 1.6.1`、`langchain-openai 1.6.0`、`FastAPI 0.141.1`、`Uvicorn 0.52.4`、`Pydantic 2.13.4`、`HTTPX 0.28.1`、`pytest 9.1.1`、`ruff 0.16.5`、`MkDocs 1.6.1`、`mkdocs-material 9.7.7`。
-- 已验证：`uv sync --locked`、`uv run ruff check .`、18 个 pytest 测试、`uv run mkdocs build --strict`，以及第 1～3 章的离线示例运行命令。
-- 已知局限：第 3 章使用 Fake Chat Model 验证消息、Prompt、LCEL、Parser 和调用边界，不验证真实凭证、网络、模型能力、Tool Calling、Structured Output、RAG 或部署策略。
-- 下一入口：第 4 章“Structured Output、Pydantic、Tool Calling 与工具循环”。
+- 当前阶段：第 1～4 章内容完成，不代表学习者已经掌握。
+- 已交付：第 1 章显式上下文示例；第 2 章协程与 FastAPI 边界示例；第 3 章 LCEL 离线链路和真实模型客户端创建边界；第 4 章 Pydantic Structured Output 边界、工具 Schema、白名单执行、`ToolMessage` 关联与完整离线工具循环。
+- 验证环境：Python 3.12，`LangChain 1.4.0`、`langchain-core 1.6.1`、`langchain-openai 1.6.0`、`FastAPI 0.141.1`、`Uvicorn 0.52.4`、`Pydantic 2.13.5`、`HTTPX 0.28.1`、`pytest 9.1.1`、`ruff 0.16.5`、`MkDocs 1.6.1`、`mkdocs-material 9.7.7`。
+- 已验证：`uv sync --locked`、`uv run ruff check .`、26 个 pytest 测试、`uv run mkdocs build --strict`，以及第 1～4 章的离线示例运行命令。
+- 已知局限：第 4 章以固定 `AIMessage` 离线验证 Schema、工具执行协议和消息顺序，不验证真实模型提供商的 Tool Calling/Structured Output 能力、凭证、网络、费用、LangGraph 编排或生产授权策略。
+- 下一入口：第 5 章“RAG：Document、切分、Embedding、向量检索与 Retriever”。
 
 ## 进度更新规则
 
