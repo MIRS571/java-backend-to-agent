@@ -14,7 +14,7 @@
 | 4 | [Structured Output 与 Tool Calling](chapter04/structured-output-and-tools.md) | 如何让模型输出可验证数据并请求外部能力 |
 | 5 | [RAG 基础](chapter05/rag-basics.md) | 如何让回答基于外部知识而非模型记忆 |
 | 6 | [企业级 RAG](chapter06/enterprise-rag-with-qdrant.md) | 如何持久化、隔离、引用和评估检索结果 |
-| 7 | LangGraph 基础 | 如何显式表示状态、节点和分支流程 |
+| 7 | [LangGraph 基础](chapter07/langgraph-basics.md) | 如何显式表示状态、节点和分支流程 |
 | 8 | 持久化与人工审批 | 如何恢复会话并安全暂停高风险流程 |
 | 9 | 服务化与流式输出 | 如何通过 FastAPI 和 Java 对外提供 Agent 能力 |
 | 10 | 企业基础设施 | PostgreSQL、Redis、Qdrant 和 Docker 各负责什么 |

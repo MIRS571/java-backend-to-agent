@@ -10,6 +10,7 @@ dependencies = [
     "langchain-openai>=1,<2",
     "langchain-qdrant>=1,<2",
     "langchain-text-splitters>=1,<2",
+    "langgraph>=1,<2",
     "numpy>=2,<3",
     "python-dotenv>=1.1,<2",
     "qdrant-client>=1.15,<2",

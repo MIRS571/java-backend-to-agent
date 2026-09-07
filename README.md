@@ -2,7 +2,7 @@
 
 面向 Java 后端开发者的企业级 AI Agent 工程教程。课程使用简洁的中文解释和可运行代码，重点覆盖 LangChain、RAG、LangGraph，以及它们与 Spring Boot 企业后端的协作边界。
 
-> 当前状态：第 1～6 章内容已经完成，下一步是第 7 章“LangGraph：State、Node、Edge、路由、MessagesState 与 ToolNode”。
+> 当前状态：第 1～7 章内容已经完成，下一步是第 8 章“Checkpointer、Memory、Runtime、Interrupt 与 Resume”。
 
 ## 为什么有这个项目
 
@@ -28,7 +28,7 @@
 
 完整章节和状态见 [ROADMAP.md](ROADMAP.md)。
 
-当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)；[第 3 章：LangChain 基础](docs/chapter03/langchain-basics.md)；[第 4 章：Structured Output 与 Tool Calling](docs/chapter04/structured-output-and-tools.md)；[第 5 章：RAG 基础](docs/chapter05/rag-basics.md)；[第 6 章：企业级 RAG 与 Qdrant](docs/chapter06/enterprise-rag-with-qdrant.md)。
+当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)；[第 3 章：LangChain 基础](docs/chapter03/langchain-basics.md)；[第 4 章：Structured Output 与 Tool Calling](docs/chapter04/structured-output-and-tools.md)；[第 5 章：RAG 基础](docs/chapter05/rag-basics.md)；[第 6 章：企业级 RAG 与 Qdrant](docs/chapter06/enterprise-rag-with-qdrant.md)；[第 7 章：LangGraph 基础](docs/chapter07/langgraph-basics.md)。
 
 ## 快速开始
 

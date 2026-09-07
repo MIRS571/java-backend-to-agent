@@ -33,4 +33,4 @@ flowchart LR
 3. 每章结束后先独立回答思考题，再检查自己的理解。
 4. 遇到报错时使用[排查顺序](appendix/troubleshooting.md)，不要立即复制完整答案。
 
-当前已完成[第 1 章：Agent、LLM API、消息、上下文与模型局限](chapter01/agent-and-llm-api.md)、[第 2 章：Python、uv、异步与 FastAPI](chapter02/python-uv-async-fastapi.md)、[第 3 章：LangChain 基础](chapter03/langchain-basics.md)、[第 4 章：Structured Output 与 Tool Calling](chapter04/structured-output-and-tools.md)、[第 5 章：RAG 基础](chapter05/rag-basics.md)和[第 6 章：企业级 RAG 与 Qdrant](chapter06/enterprise-rag-with-qdrant.md)，下一步为第 7 章 LangGraph 基础。
+当前已完成[第 1 章：Agent、LLM API、消息、上下文与模型局限](chapter01/agent-and-llm-api.md)、[第 2 章：Python、uv、异步与 FastAPI](chapter02/python-uv-async-fastapi.md)、[第 3 章：LangChain 基础](chapter03/langchain-basics.md)、[第 4 章：Structured Output 与 Tool Calling](chapter04/structured-output-and-tools.md)、[第 5 章：RAG 基础](chapter05/rag-basics.md)、[第 6 章：企业级 RAG 与 Qdrant](chapter06/enterprise-rag-with-qdrant.md)和[第 7 章：LangGraph 基础](chapter07/langgraph-basics.md)，下一步为第 8 章持久化与人工审批。
