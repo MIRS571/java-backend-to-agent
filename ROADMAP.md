@@ -25,17 +25,17 @@
 | 8 | Checkpointer、Memory、Runtime、Interrupt 与 Resume | 内容完成（2026-09-07） |
 | 9 | FastAPI 分层、生命周期、SSE 与 Java 流式转发 | 内容完成（2026-09-07） |
 | 10 | PostgreSQL、Redis、Qdrant、Docker、幂等与重试 | 内容完成（2026-09-07） |
-| 11 | Agent 评估、可观测性、安全、MCP 与多 Agent 边界 | 待开始 |
+| 11 | Agent 评估、可观测性、安全、MCP 与多 Agent 边界 | 内容完成（2026-09-07） |
 | 12 | `enterprise-support-agent` 综合案例拆解 | 待开始 |
 
 ## 当前入口
 
-- 当前阶段：第 1～10 章内容完成，不代表学习者已经掌握。
-- 已交付：第 10 章明确业务库、PostgreSQL Checkpointer、Redis 和 Qdrant 的职责，完成多租户 Key、请求指纹、幂等复用/冲突、有限读取重试与本地 Docker Compose 学习拓扑。
+- 当前阶段：第 1～11 章内容完成，不代表学习者已经掌握。
+- 已交付：第 11 章建立路由、工具轨迹与回答事实的分层离线评估，说明 Trace 数据模型、Prompt Injection 工具边界，以及 MCP 和多 Agent 的适用条件。
 - 验证环境：Python 3.12，`FastAPI 0.141.1`、`Starlette 1.6.0`、`LangGraph 1.2.11`、`LangChain 1.4.0`、`langchain-core 1.6.1`、`langchain-openai 1.6.0`、`langchain-qdrant 1.1.0`、`qdrant-client 1.19.0`、`Pydantic 2.13.5`、`HTTPX 0.28.1`、`pytest 9.1.1`、`ruff 0.16.5`、`MkDocs 1.6.1`、`mkdocs-material 9.7.7`。
-- 已验证：`uv sync --locked`、`uv run ruff check .`、67 个 pytest 测试、`uv run mkdocs build --strict`，以及第 10 章离线示例和 Compose YAML 结构。
-- 已知局限：第 10 章不启动外部数据库，不验证真实并发、故障恢复、关系事务、高可用或生产安全配置。
-- 下一入口：第 11 章“Agent 评估、可观测性、安全、MCP 与多 Agent 边界”。
+- 已验证：`uv sync --locked`、`uv run ruff check .`、74 个 pytest 测试、`uv run mkdocs build --strict`，以及第 11 章离线评估示例。
+- 已知局限：第 11 章不连接 LangSmith、MCP Server 或真实模型，不代替生产隐私评估、人工复核或渗透测试。
+- 下一入口：第 12 章“`enterprise-support-agent` 综合案例拆解”。
 
 ## 进度更新规则
 
