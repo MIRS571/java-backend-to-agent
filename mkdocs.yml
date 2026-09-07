@@ -30,6 +30,7 @@ nav:
   - 第 9 章 FastAPI、SSE 与 Java 转发: chapter09/fastapi-sse-java-relay.md
   - 第 10 章 企业基础设施与可靠性: chapter10/infrastructure-reliability.md
   - 第 11 章 质量、安全与架构边界: chapter11/quality-security-and-boundaries.md
+  - 第 12 章 企业售后 Agent 综合案例: chapter12/enterprise-support-agent-walkthrough.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md

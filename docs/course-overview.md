@@ -19,8 +19,10 @@
 | 9 | [服务化与流式输出](chapter09/fastapi-sse-java-relay.md) | 如何通过 FastAPI 和 Java 对外提供 Agent 能力 |
 | 10 | [企业基础设施](chapter10/infrastructure-reliability.md) | PostgreSQL、Redis、Qdrant 和 Docker 各负责什么 |
 | 11 | [质量与边界](chapter11/quality-security-and-boundaries.md) | 如何评估、观察、防护以及判断是否需要 MCP 或多 Agent |
-| 12 | 综合案例 | 如何把所有部件放进可解释的企业售后系统 |
+| 12 | [综合案例](chapter12/enterprise-support-agent-walkthrough.md) | 如何把所有部件放进可解释的企业售后系统 |
 
 课程按依赖顺序推进。可以暂停复习或修正当前章，但不因为框架流行度随意跳过基础数据流。
+
+12 章全部内容完成后，建议按思考题复习，并沿第 12 章的请求执行顺序阅读完整案例。内容完成不代表已经掌握；能独立解释边界、运行示例和定位故障才是验收目标。
 
 最新完成状态以仓库根目录的 [`ROADMAP.md`](https://github.com/MIRS571/java-backend-to-agent/blob/main/ROADMAP.md) 为准。

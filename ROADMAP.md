@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | uv 项目与锁文件 | 完成 | `pyproject.toml` 与 `uv.lock` 已建立，项目依赖版本已固定 |
 | MkDocs Material | 完成 | `mkdocs build --strict` 已成功，本地站点与 GitHub Pages 工作流已配置 |
-| 离线质量门槛 | 完成 | Ruff、67 个 pytest 测试和 MkDocs 严格构建通过 |
+| 离线质量门槛 | 完成 | Ruff、82 个 pytest 测试和 MkDocs 严格构建通过 |
 | 全局课程 Skill | 完成 | `java-agent-course-lead` 已安装并通过 `quick_validate.py` |
 
 ## 12 章主线
@@ -26,16 +26,16 @@
 | 9 | FastAPI 分层、生命周期、SSE 与 Java 流式转发 | 内容完成（2026-09-07） |
 | 10 | PostgreSQL、Redis、Qdrant、Docker、幂等与重试 | 内容完成（2026-09-07） |
 | 11 | Agent 评估、可观测性、安全、MCP 与多 Agent 边界 | 内容完成（2026-09-07） |
-| 12 | `enterprise-support-agent` 综合案例拆解 | 待开始 |
+| 12 | `enterprise-support-agent` 综合案例拆解 | 内容完成（2026-09-07） |
 
 ## 当前入口
 
-- 当前阶段：第 1～11 章内容完成，不代表学习者已经掌握。
-- 已交付：第 11 章建立路由、工具轨迹与回答事实的分层离线评估，说明 Trace 数据模型、Prompt Injection 工具边界，以及 MCP 和多 Agent 的适用条件。
+- 当前阶段：12 章课程内容全部完成，不代表学习者已经掌握。
+- 已交付：第 12 章按真实请求顺序拆解 `enterprise-support-agent`，明确 Java/Python 责任、订单查询、政策 RAG、退款审批恢复、SSE 转发和完整项目阅读路径。
 - 验证环境：Python 3.12，`FastAPI 0.141.1`、`Starlette 1.6.0`、`LangGraph 1.2.11`、`LangChain 1.4.0`、`langchain-core 1.6.1`、`langchain-openai 1.6.0`、`langchain-qdrant 1.1.0`、`qdrant-client 1.19.0`、`Pydantic 2.13.5`、`HTTPX 0.28.1`、`pytest 9.1.1`、`ruff 0.16.5`、`MkDocs 1.6.1`、`mkdocs-material 9.7.7`。
-- 已验证：`uv sync --locked`、`uv run ruff check .`、74 个 pytest 测试、`uv run mkdocs build --strict`，以及第 11 章离线评估示例。
-- 已知局限：第 11 章不连接 LangSmith、MCP Server 或真实模型，不代替生产隐私评估、人工复核或渗透测试。
-- 下一入口：第 12 章“`enterprise-support-agent` 综合案例拆解”。
+- 已验证：`uv sync --locked`、`uv run ruff check .`、82 个 pytest 测试、`uv run mkdocs build --strict`，以及第 12 章离线请求流程示例。
+- 已知局限：第 12 章示例只验证架构顺序，不启动完整项目的模型与基础设施；完整案例快照仍保留生产认证、TLS/mTLS、密钥轮换和联合部署等上线工作。
+- 下一入口：逐章回答思考题，并按第 12 章阅读顺序审查完整案例仓库。
 
 ## 进度更新规则
 

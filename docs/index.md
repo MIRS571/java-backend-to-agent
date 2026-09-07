@@ -33,4 +33,4 @@ flowchart LR
 3. 每章结束后先独立回答思考题，再检查自己的理解。
 4. 遇到报错时使用[排查顺序](appendix/troubleshooting.md)，不要立即复制完整答案。
 
-当前已完成第 1～10 章以及[第 11 章：质量、安全与架构边界](chapter11/quality-security-and-boundaries.md)，下一步为第 12 章综合案例拆解。
+12 章课程内容已全部完成。最后请阅读[第 12 章：企业售后 Agent 综合案例](chapter12/enterprise-support-agent-walkthrough.md)，再沿请求执行顺序进入完整项目。
