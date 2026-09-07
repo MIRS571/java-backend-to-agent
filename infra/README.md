@@ -11,3 +11,4 @@
 ## 已提供配置
 
 - [`qdrant/compose.yml`](qdrant/compose.yml)：第 6 章使用的单节点本地开发模板，不作为生产部署方案。
+- [`enterprise/compose.yml`](enterprise/compose.yml)：第 10 章 PostgreSQL、Redis 与 Qdrant 的本地学习拓扑。

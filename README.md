@@ -2,7 +2,7 @@
 
 面向 Java 后端开发者的企业级 AI Agent 工程教程。课程使用简洁的中文解释和可运行代码，重点覆盖 LangChain、RAG、LangGraph，以及它们与 Spring Boot 企业后端的协作边界。
 
-> 当前状态：第 1～9 章内容已经完成，下一步是第 10 章“PostgreSQL、Redis、Qdrant、Docker、幂等与重试”。
+> 当前状态：第 1～10 章内容已经完成，下一步是第 11 章“评估、可观测性、安全、MCP 与多 Agent 边界”。
 
 ## 为什么有这个项目
 
@@ -28,7 +28,7 @@
 
 完整章节和状态见 [ROADMAP.md](ROADMAP.md)。
 
-当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)；[第 3 章：LangChain 基础](docs/chapter03/langchain-basics.md)；[第 4 章：Structured Output 与 Tool Calling](docs/chapter04/structured-output-and-tools.md)；[第 5 章：RAG 基础](docs/chapter05/rag-basics.md)；[第 6 章：企业级 RAG 与 Qdrant](docs/chapter06/enterprise-rag-with-qdrant.md)；[第 7 章：LangGraph 基础](docs/chapter07/langgraph-basics.md)；[第 8 章：持久化、Runtime 与人工审批](docs/chapter08/persistence-runtime-interrupts.md)；[第 9 章：FastAPI、SSE 与 Java 流式转发](docs/chapter09/fastapi-sse-java-relay.md)。
+当前可阅读：[第 1 章：Agent、LLM API、消息、上下文与模型局限](docs/chapter01/agent-and-llm-api.md)；[第 2 章：Python、uv、异步与 FastAPI](docs/chapter02/python-uv-async-fastapi.md)；[第 3 章：LangChain 基础](docs/chapter03/langchain-basics.md)；[第 4 章：Structured Output 与 Tool Calling](docs/chapter04/structured-output-and-tools.md)；[第 5 章：RAG 基础](docs/chapter05/rag-basics.md)；[第 6 章：企业级 RAG 与 Qdrant](docs/chapter06/enterprise-rag-with-qdrant.md)；[第 7 章：LangGraph 基础](docs/chapter07/langgraph-basics.md)；[第 8 章：持久化、Runtime 与人工审批](docs/chapter08/persistence-runtime-interrupts.md)；[第 9 章：FastAPI、SSE 与 Java 流式转发](docs/chapter09/fastapi-sse-java-relay.md)；[第 10 章：企业基础设施与可靠性](docs/chapter10/infrastructure-reliability.md)。
 
 ## 快速开始
 
