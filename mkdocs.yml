@@ -26,6 +26,7 @@ nav:
   - 第 5 章 RAG 基础: chapter05/rag-basics.md
   - 第 6 章 企业级 RAG 与 Qdrant: chapter06/enterprise-rag-with-qdrant.md
   - 第 7 章 LangGraph 基础: chapter07/langgraph-basics.md
+  - 第 8 章 持久化、Runtime 与人工审批: chapter08/persistence-runtime-interrupts.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md
