@@ -24,6 +24,7 @@ nav:
   - 第 3 章 LangChain 基础: chapter03/langchain-basics.md
   - 第 4 章 Structured Output 与 Tool Calling: chapter04/structured-output-and-tools.md
   - 第 5 章 RAG 基础: chapter05/rag-basics.md
+  - 第 6 章 企业级 RAG 与 Qdrant: chapter06/enterprise-rag-with-qdrant.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md

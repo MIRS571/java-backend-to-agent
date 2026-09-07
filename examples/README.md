@@ -17,3 +17,4 @@ examples/chapter06_qdrant/
 - [`chapter03_langchain_basics`](chapter03_langchain_basics/README.md)：使用离线 Chat Model 观察 Message、Prompt、LCEL、Parser 和调用方式。
 - [`chapter04_structured_tools`](chapter04_structured_tools/README.md)：使用离线数据验证 Structured Output Schema，并观察完整 Tool Calling 协议循环。
 - [`chapter05_rag_basics`](chapter05_rag_basics/README.md)：使用可重复的本地向量演示 Document、切分、检索、Context 格式化和 2-step RAG。
+- [`chapter06_enterprise_rag`](chapter06_enterprise_rag/README.md)：使用 Qdrant 内存模式验证稳定 ID、租户过滤、引用和 Recall@k。

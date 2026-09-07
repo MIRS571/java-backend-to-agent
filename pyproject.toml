@@ -8,9 +8,11 @@ dependencies = [
     "fastapi[standard]>=0.115,<1",
     "langchain>=1,<2",
     "langchain-openai>=1,<2",
+    "langchain-qdrant>=1,<2",
     "langchain-text-splitters>=1,<2",
     "numpy>=2,<3",
     "python-dotenv>=1.1,<2",
+    "qdrant-client>=1.15,<2",
 ]
 
 [dependency-groups]
@@ -19,6 +21,7 @@ dev = [
     "httpx>=0.28,<1",
     "pytest>=8,<10",
     "pytest-asyncio>=1,<2",
+    "pyyaml>=6,<7",
     "ruff>=0.12,<1",
 ]
 
