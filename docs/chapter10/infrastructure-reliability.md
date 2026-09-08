@@ -200,7 +200,7 @@ uv run python -m examples.chapter10_infrastructure_reliability.reliability_demo
 
 ## 10. 本章总结
 
-- 业务库保存领域事实，PostgreSQL Checkpointer 保存 Graph 快照，Redis 保存高频临时状态，Qdrant负责向量检索。
+- 业务库保存领域事实，PostgreSQL Checkpointer 保存 Graph 快照，Redis 保存高频临时状态，Qdrant 负责向量检索。
 - 多租户作用域必须进入 SQL、Redis Key、thread ownership 和 Qdrant filter。
 - Redis 故障是否降级取决于它保护的是性能还是正确性。
 - 幂等需要稳定 key、请求指纹、状态机和最终业务约束，不只是一把锁。

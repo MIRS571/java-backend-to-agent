@@ -1,6 +1,6 @@
 # 第 3 章：LangChain 模型、Message、Prompt、LCEL、Parser 与调用方式
 
-> 本章状态：内容完成。验证日期：2026-09-04。关键依赖：LangChain 1.4.0、langchain-core 1.6.1、langchain-openai 1.6.0、Python 3.12。
+> 本章状态：内容完成。最近复核：2026-09-08。关键依赖：LangChain 1.4.0、langchain-core 1.6.1、langchain-openai 1.6.0、Pydantic 2.13.5、Python 3.12。
 
 ## 1. 本章解决的问题
 
@@ -276,4 +276,4 @@ Fake Model 只能验证 Prompt、LCEL、Parser 和业务适配逻辑。真实凭
 - [LangChain Reference：RunnableLambda 与流式边界](https://reference.langchain.com/python/langchain-core/runnables/base/RunnableLambda)
 - [LangChain Reference：语言模型与 Fake Chat Model](https://reference.langchain.com/python/langchain-core/language_models)
 
-资料于 2026-09-04 核对。示例锁定 LangChain 1.4.0、langchain-core 1.6.1、langchain-openai 1.6.0、Pydantic 2.13.4、pytest 9.1.1、Ruff 0.16.5 和 Python 3.12。离线示例不访问模型 API；真实客户端构造与网络调用边界已分离。
+资料与依赖版本于 2026-09-08 复核。示例锁定 LangChain 1.4.0、langchain-core 1.6.1、langchain-openai 1.6.0、Pydantic 2.13.5、pytest 9.1.1、Ruff 0.16.5 和 Python 3.12。离线示例不访问模型 API；真实客户端构造与网络调用边界已分离。

@@ -8,29 +8,62 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/robot-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.footer
     - toc.follow
+    - search.suggest
+    - search.highlight
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
 
 nav:
   - 首页: index.md
-  - 课程路线: course-overview.md
-  - 学习方法: guide/learning-method.md
-  - 第 1 章 Agent 与 LLM API: chapter01/agent-and-llm-api.md
-  - 第 2 章 Python、uv、async 与 FastAPI: chapter02/python-uv-async-fastapi.md
-  - 第 3 章 LangChain 基础: chapter03/langchain-basics.md
-  - 第 4 章 Structured Output 与 Tool Calling: chapter04/structured-output-and-tools.md
-  - 第 5 章 RAG 基础: chapter05/rag-basics.md
-  - 第 6 章 企业级 RAG 与 Qdrant: chapter06/enterprise-rag-with-qdrant.md
-  - 第 7 章 LangGraph 基础: chapter07/langgraph-basics.md
-  - 第 8 章 持久化、Runtime 与人工审批: chapter08/persistence-runtime-interrupts.md
-  - 第 9 章 FastAPI、SSE 与 Java 转发: chapter09/fastapi-sse-java-relay.md
-  - 第 10 章 企业基础设施与可靠性: chapter10/infrastructure-reliability.md
-  - 第 11 章 质量、安全与架构边界: chapter11/quality-security-and-boundaries.md
-  - 第 12 章 企业售后 Agent 综合案例: chapter12/enterprise-support-agent-walkthrough.md
+  - 起步:
+      - 课程路线: course-overview.md
+      - 学习方法: guide/learning-method.md
+  - 基础:
+      - 第 1 章 Agent 与 LLM API: chapter01/agent-and-llm-api.md
+      - 第 2 章 Python、uv、async 与 FastAPI: chapter02/python-uv-async-fastapi.md
+  - LangChain:
+      - 第 3 章 模型、Prompt 与 LCEL: chapter03/langchain-basics.md
+      - 第 4 章 Structured Output 与 Tool Calling: chapter04/structured-output-and-tools.md
+  - RAG:
+      - 第 5 章 RAG 基础: chapter05/rag-basics.md
+      - 第 6 章 企业级 RAG 与 Qdrant: chapter06/enterprise-rag-with-qdrant.md
+  - LangGraph:
+      - 第 7 章 LangGraph 基础: chapter07/langgraph-basics.md
+      - 第 8 章 持久化、Runtime 与人工审批: chapter08/persistence-runtime-interrupts.md
+  - 企业工程:
+      - 第 9 章 FastAPI、SSE 与 Java 转发: chapter09/fastapi-sse-java-relay.md
+      - 第 10 章 基础设施与可靠性: chapter10/infrastructure-reliability.md
+      - 第 11 章 质量、安全与架构边界: chapter11/quality-security-and-boundaries.md
+  - 综合案例:
+      - 第 12 章 企业售后 Agent: chapter12/enterprise-support-agent-walkthrough.md
   - 附录:
       - API 速查方法: appendix/api-cheatsheet.md
       - Java / Python 概念映射: appendix/java-python-map.md
@@ -42,12 +75,23 @@ nav:
 markdown_extensions:
   - admonition
   - attr_list
+  - footnotes
   - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: 代码采用 MIT；原创教程文档采用 CC BY-NC-SA 4.0

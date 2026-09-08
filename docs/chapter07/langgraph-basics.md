@@ -196,7 +196,7 @@ builder.add_edge("general_response", END)
 
 ```python
 builder = StateGraph(SupportState)
-# add_node / add_edge / add_conditional_edges
+# 然后添加 add_node / add_edge / add_conditional_edges
 graph = builder.compile()
 ```
 

@@ -1,0 +1,105 @@
+:root {
+  --course-accent: #4f46e5;
+  --course-accent-soft: rgba(79, 70, 229, 0.1);
+  --course-border: rgba(100, 116, 139, 0.22);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 225;
+  --course-accent: #818cf8;
+  --course-accent-soft: rgba(129, 140, 248, 0.13);
+  --course-border: rgba(148, 163, 184, 0.2);
+}
+
+.md-grid {
+  max-width: 76rem;
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--course-border);
+  padding-bottom: 0.35rem;
+}
+
+.course-hero {
+  background:
+    radial-gradient(circle at 90% 10%, var(--course-accent-soft), transparent 38%),
+    linear-gradient(135deg, var(--course-accent-soft), transparent 60%);
+  border: 1px solid var(--course-border);
+  border-radius: 1rem;
+  margin: 0 0 1.6rem;
+  padding: clamp(1.4rem, 4vw, 3rem);
+}
+
+.course-hero h1 {
+  font-size: clamp(2rem, 5vw, 3.35rem);
+  margin: 0 0 0.7rem;
+}
+
+.course-hero p {
+  font-size: 1.05rem;
+  max-width: 48rem;
+}
+
+.course-kicker {
+  color: var(--course-accent);
+  font-size: 0.78rem !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.course-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--course-border);
+  border-radius: 0.75rem;
+  box-shadow: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--course-accent);
+  transform: translateY(-2px);
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--course-border);
+  border-radius: 0.45rem;
+  overflow: hidden;
+}
+
+.md-typeset code {
+  border-radius: 0.3rem;
+}
+
+.course-status {
+  align-items: center;
+  background: var(--course-accent-soft);
+  border-left: 0.22rem solid var(--course-accent);
+  border-radius: 0.35rem;
+  display: flex;
+  gap: 0.7rem;
+  margin: 1rem 0 1.6rem;
+  padding: 0.8rem 1rem;
+}
+
+@media screen and (max-width: 44.9844em) {
+  .course-hero {
+    border-radius: 0.7rem;
+    padding: 1.25rem;
+  }
+
+  .course-hero h1 {
+    font-size: 2rem;
+  }
+}
